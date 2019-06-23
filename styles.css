@@ -1,0 +1,274 @@
+body{
+    margin: 0;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+    font-size: 1.6rem;
+}
+
+#rodapeSup{
+    background-color: brown;
+    height: 20px;
+    /* top: 10px; */
+}
+
+#eixoX{
+    background-color: #641E1E;  
+    height: 150px;
+    display: block;
+}
+
+#titulo{
+    position: absolute;
+    top: 1px;
+    width: 221px;
+    height: 50px;
+    font-family: Impact;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    color: #F0B6B6; 
+}
+
+#contatos{
+    position: absolute;
+    top: 5px;
+    left: 999px;
+}
+
+.logo{
+    display: block;
+    margin: 0px;
+    margin-left: 210px;
+    margin-top: -173px;
+}
+
+.logo #dog{
+    height: 250px;
+    right: 250px;
+}
+
+.rodapeY{
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-left: 450px;
+    margin-top: -100px;
+    
+    height: 1000px;
+}
+
+.rodapeY #pagEstoque img{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 190px;
+    height: 40px;
+    
+}
+
+.rodapeY #pagSobre img{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 190px;
+    height: 40px;
+}
+
+.rodapeY #pagVendas img{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 40px;
+}
+
+.rodapeY #pagFuncClients img{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 210px;
+    height: 41px;
+}
+
+.rodapeY #pagEstoque{
+    position: absolute;
+    margin-top: 19px;
+    margin-left: 0px;
+}
+
+.rodapeY #pagSobre{
+    position: absolute; 
+    margin: 0;
+    padding: 0;
+    margin-left: 660px;
+    margin-top: 19px;
+
+}
+
+.rodapeY #pagVendas{
+    position: absolute; 
+    padding: 0;
+    margin:0;
+    margin-left: 220px;
+    margin-top: 19px;
+}
+
+.rodapeY #pagFuncClients{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    margin-left: 440px;
+    margin-top: 19px;
+}
+
+.pal{
+    color: #F0B6B6; 
+    font-size: 15px;
+    font-weight: 900;
+    font-variant: small-caps;
+}
+
+.pal1{
+    color: #F0B6B6; 
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.rodape{
+    display: block;
+    margin: 0;
+    margin-top: 50px;
+    background-color: #641E1E;
+    height: 25px;
+    
+}
+
+.rodape #rodape{
+    display: block;
+    margin: 0px;
+    margin-left: 10px;
+}
+
+#boxEstoque{
+    background-color: white;
+    display: block;
+    height: 450px;
+    right: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    margin-bottom: 3%;
+}
+
+#tableEstoque{
+    display: block;
+    padding-top: 40px;
+    margin-left: 15px;  
+       
+}
+
+.pesquisaEstoque{
+    display: block;
+    margin-top: 5px;
+}
+
+.pesquisaEstoque #bBuscEstoque{
+    background-color: #641E1E;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    border: black solid 1px;
+}
+
+.pesquisaEstoque #inBuscEstoque{
+    background-color: #C4C4C4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border:1px solid #000000;
+}
+
+#galeria{
+    position: absolute;
+    left: 500px;
+    padding: 0;
+    top: 200px;
+}   
+
+
+.adicProduct{
+    display: inline-block;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 15px;
+    margin-top: 15px;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+}
+
+.adicProduct input{
+    display: block;
+    width: 269px;
+    height: 20px;
+    margin-left: 70px;
+    background-color: #C4C4C4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 7px;
+    border:1px solid #000000;
+    text-align: center;
+}
+
+.adicProduct p{
+    margin: 0;
+}
+
+#adicProduct{
+    margin-top: 15px;
+    display: inline-block;
+    max-width: 98%;
+    width: 355px;
+    height: 40px;
+    background-color: #641E1E;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    box-shadow: 1px 2px 0 1px rgb(48, 5, 5);
+    text-decoration: none;
+    
+}
+
+#bSair{
+    position: relative;
+    top: -981px;
+    left: 90px;
+    border: white solid 0.5px;
+    background-color: #5A1010;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: #F0B6B6;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.rodapeY .img{
+    position: relative;
+    border: white solid 0.5px;
+    background-color: #5A1010;
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    color: #F0B6B6;
+    font-size: 15px;
+    font-weight: 700;
+}
